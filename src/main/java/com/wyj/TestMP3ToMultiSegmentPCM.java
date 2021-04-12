@@ -15,6 +15,9 @@ import java.util.List;
  * @date: 2021/04/09
  */
 public class TestMP3ToMultiSegmentPCM {
+    /**
+     * 音频间隔时间，单位秒
+     */
     private static int distance =30;
 
     public static void main(String[] args) throws IOException, InterruptedException, DemoException {
